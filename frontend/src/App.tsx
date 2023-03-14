@@ -17,7 +17,7 @@ function App() {
     <div className='main' style={{ display: 'flex', justifyContent:'center'}}>
      <img src="/trending-asset.png" alt="" style={{position:'relative', width:'40px',height:'40px', left:'7.5%', top:'20%', border:'1.5px solid #DC1FFF'}}/>
       <div className='my-text'>Trending Assets</div>
-      <AssetCard style={cardStyle} image={"/bitcoinsv.png"} name={"Bitcoin (BTC)"} 
+      <AssetCard style={cardStyle} image={"frontend/public/bitcoinsv.png"} name={"Bitcoin (BTC)"} 
       price={"$31,812.80"} percentageClass={"profit"} percentage={"+10%"} image1={"/solana.png"} image2={"/ethereum.png"} image3={"/binance.png"}></AssetCard>
       <AssetCard style={cardStyle} image={"/solana.png"} name={"Solana (SOL)"}
        price={"$32.83"} percentageClass={"loss"} percentage={"-12.32%"}  image1={"/bitcoinsv.png"} image2={"/ethereum.png"} image3={"/binance.png"}></AssetCard>
