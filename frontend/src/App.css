@@ -5,14 +5,22 @@
   background: #14172B;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.my-text {
+  position: relative;
+  width: 146px;
+  height: 32px;
+  left: 8%;
+  top:20%;
+  border-radius: 0;
+  font-family: 'Tomorrow';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #ECF0FF;
+  opacity: 0.9;
 }
-
-.logo {
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -23,16 +31,16 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
+} */
 
-@keyframes logo-spin {
+/* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-} */
+}
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -46,4 +54,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

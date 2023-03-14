@@ -1,9 +1,10 @@
 .circle-container {
     position: relative;
-    top:-50%;
+    top:-54%;
     left:-4%;
     width: 100px;
     height: 100px;
+ 
   }
   
   .circle-outer {
@@ -15,15 +16,16 @@
     backdrop-filter: blur(50px);
     border-radius: 50%;
     z-index: 1;
+
   }
   
   .circle-inner {
     background-image: url(${image});
     position: relative;
-    top: 12%;
-    left: 12%;
-    width: 76%;
-    height: 76%;
+    top: 24%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
     background: linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(59, 63, 87, 0.1) 100%);
     border-radius: 50%;
     z-index: 2;

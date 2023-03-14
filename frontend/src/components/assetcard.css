@@ -17,5 +17,154 @@
     font-size: 1.5rem;
     color: white;
     backdrop-filter: blur(50px);
-    border-radius: 15px;
+    border-radius: 20px;
 }
+
+.card-name {
+    position: absolute;
+    width: 231px;
+    height: 31px;
+    top: 18%;
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 31px;
+    text-align: center;
+    color: #737BAE;
+    opacity: 0.9;
+}
+
+.rectangle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 242px;
+    height: 40px;
+    top: 30%;
+    background: #14172B;
+    /* border: 1.5px solid #DC1FFF; */
+    border-radius: 17px;
+}
+
+.text {
+    position: absolute;
+    width: 241px;
+    height: 31px;
+    top: 43%;
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 31px;
+    text-align: center;
+    color: #5A5F7D;
+    opacity: 0.9;
+}
+
+.price-text {
+    position: absolute;
+    width: 241px;
+    height: 31px;
+    top: 5%;
+
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 31px;
+    /* identical to box height, or 194% */
+
+    text-align: center;
+
+    /* Secondary/Blue 000 */
+
+    color: #ECF0FF;
+
+    opacity: 0.9;
+}
+
+.profit {
+    position: relative;
+    width: 62.58px;
+    height: 31px;
+    left: 77%;
+    top: 5%;
+
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 31px;
+    /* identical to box height, or 258% */
+
+    text-transform: uppercase;
+
+    color: #00FFA3;
+
+    opacity: 0.9;
+}
+
+.loss{
+    position: relative;
+width: 62.58px;
+height: 31px;
+left: 77%;
+top: 5%;
+
+font-family: 'Tomorrow';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 31px;
+/* identical to box height, or 258% */
+
+text-transform: uppercase;
+
+color: #FF4D4D;
+
+opacity: 0.9;
+}
+
+.tvl-text{
+    position: absolute;
+width: 241px;
+height: 31px;
+top: 7%;
+
+font-family: 'Tomorrow';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 31px;
+/* identical to box height, or 194% */
+
+text-align: center;
+
+/* Secondary/Blue 000 */
+
+color: #ECF0FF;
+
+opacity: 0.9;
+}
+
+.sm-rectangle{
+    position: absolute;
+width: 121.75px;
+height: 40px;
+top: 77%;
+
+background: #14172B;
+border-radius: 29.5px;
+/* border: 1.5px solid #DC1FFF; */
+}
+
+.sm-circle {
+    position: relative;
+    top: 10%;
+    width: 18%;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(59, 63, 87, 0.1) 100%);
+    background-size: cover;
+    border-radius: 50%;
+    z-index: 2;
+  }
